@@ -1,0 +1,32 @@
+{
+  "name": "odin-p2",
+  "version": "0.0.1",
+  "description": "p2.js plugin for odin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathanfaucett/odin-p2.git"
+  },
+  "main": "src/index.js",
+  "keywords": [
+    "odin-p2",
+    "odin-p2.js"
+  ],
+  "scripts": {
+    "test": "comn -f examples/test/src/index.js -o examples/test/index.js"
+  },
+  "author": "Nathan Faucett",
+  "license": "BSD-2-Clause",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jsbeautifier": "^0.2.7"
+  },
+  "dependencies": {
+    "odin": "git://github.com/nathanfaucett/odin",
+    "vec2": "git://github.com/nathanfaucett/vec2",
+    "vec3": "git://github.com/nathanfaucett/vec3",
+    "quat": "git://github.com/nathanfaucett/quat",
+    "p2": "^0.6.1"
+  }
+}

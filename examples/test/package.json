@@ -1,0 +1,10 @@
+{
+  "name": "phys2d-example-test",
+  "version": "0.0.1",
+  "description": "phys2d-example-test",
+  "main": "src/index.js",
+  "dependencies": {
+    "odin-phys2d-plugin": "git://github.com/nathanfaucett/odin-phys2d-plugin",
+    "odin-phys2d-rigidbody": "git://github.com/nathanfaucett/odin-phys2d-rigidbody"
+  }
+}
